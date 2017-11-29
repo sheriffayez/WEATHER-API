@@ -1,0 +1,135 @@
+.container {
+ width: 375px;
+ height: 600px;
+ background-size: cover;
+}
+
+#body_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 10px;
+}
+
+#button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+#catbug_1{
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#catbug_2{
+  width: 100px;
+  height: 100px;
+  bottom: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#input1 {
+  width: 200px;
+  height: 25px;
+  margin-top: 50px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#input2 {
+  width: 200px;
+  height: 25px;
+  margin-top: 15px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.cold {
+  background-image: url("images/cold_background.jpg");
+}
+
+.hot {
+  background-image: url("images/hot_background.jpg");
+}
+
+.average {
+  background-image: url("images/average_background.jpg");
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+   width: 768px;
+   height: 600px;
+   background-size: cover;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -15px;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  #input1 {
+  width: 300px;
+  height: 25px;
+  margin-top: 50px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#input2 {
+  width: 300px;
+  height: 25px;
+  margin-top: 15px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#button {
+  width: 300px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+}
